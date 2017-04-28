@@ -1,3 +1,4 @@
+
 function getCarro(fabricante, modelo, valor){
     return{
         fabricante,
@@ -13,3 +14,4 @@ function getCarro(fabricante, modelo, valor){
 }
 
 let carro = getCarro('kia', 'Sorento', 40000);
+console.log(carro);
